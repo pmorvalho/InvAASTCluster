@@ -1,0 +1,47 @@
+#include "vars_info.h"
+#include<stdio.h>
+
+int main()
+{
+  _function_1_1();
+  {
+    int _int_0;
+    int _int_2;
+    int _int_3;
+    int _int_4;
+    int _int_1;
+    scanf("%d", &_int_0);
+    _int_1 = 0;
+    _int_2 = 1;
+    _int_3 = 1;
+    _int_4 = 1;
+    while (_loop_3_2(_int_0, _int_1, _int_2, _int_3, _int_4), _int_2 <= _int_0)
+    {
+      _int_3 = 1;
+      while (_loop_5_3(_int_0, _int_1, _int_2, _int_3, _int_4), _int_3 <= _int_2)
+      {
+        _int_4 = 1;
+        while (_loop_7_4(_int_0, _int_1, _int_2, _int_3, _int_4), (_int_4 <= _int_3) && (_int_2 < (_int_4 + _int_3)))
+        {
+          _int_1 = _int_1 + 1;
+          _int_4 = _int_4 + 1;
+          _scope_8_5(_int_0, _int_1, _int_2, _int_3, _int_4);
+        }
+
+        _int_3 = _int_3 + 1;
+        _scope_6_6(_int_0, _int_1, _int_2, _int_3, _int_4);
+      }
+
+      _int_2 = _int_2 + 1;
+      _scope_4_7(_int_0, _int_1, _int_2, _int_3, _int_4);
+    }
+
+    printf("Number of possible triangles is %d", _int_1);
+    {
+      _return_3_8(_int_0, _int_1, _int_2, _int_3, _int_4);
+      return 0;
+    }
+    _scope_2_9(_int_0, _int_1, _int_2, _int_3, _int_4);
+  }
+}
+

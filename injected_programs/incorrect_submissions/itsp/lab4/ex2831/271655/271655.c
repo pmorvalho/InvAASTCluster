@@ -1,0 +1,28 @@
+#include "vars_info.h"
+#include<stdio.h>
+
+int main()
+{
+  _function_1_1();
+  {
+    int _int_0;
+    int _int_3;
+    scanf("%d", &_int_0);
+    int _int_1 = _int_0;
+    while (_loop_3_2(_int_0, _int_1), _int_0 > 0)
+    {
+      int _int_2 = _int_0 % 10;
+      _int_3 = (_int_3 * 10) + _int_2;
+      _int_0 = _int_0 / 10;
+      _scope_4_3(_int_0, _int_1, _int_2, _int_3);
+    }
+
+    printf("Reverse of %d is %d", _int_1, _int_3);
+    {
+      _return_3_4(_int_0, _int_1, _int_3);
+      return 0;
+    }
+    _scope_2_5(_int_0, _int_1, _int_3);
+  }
+}
+
