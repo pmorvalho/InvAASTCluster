@@ -1,12 +1,12 @@
-# InvAASTCluster : On Applying Invariant-Based Program Clustering to Introductory Programming Assignments
+# InvAASTCluster: On Applying Invariant-Based Program Clustering to Introductory Programming Assignments
 
-This is an implementation of the program clustering framework for introductory programming assignments (IPAs), described in the following paper: _InvAASTCluster: On Applying Invariant-Based Program Clustering to Introductory Programming Assignments_ ([https://arxiv.org/pdf/.pdf](https://arxiv.org/pdf/.pdf)).
+This is an implementation of the program clustering framework for introductory programming assignments (IPAs), described in the following paper: _"InvAASTCluster: On Applying Invariant-Based Program Clustering to Introductory Programming Assignments"_ ([https://arxiv.org/pdf/.pdf](https://arxiv.org/pdf/.pdf)).
 
 InvAASTCluster is a novel and efficient approach for clustering submissions for introductory programming assignments (IPAs) based on the submissions' sets of program invariants and anonymized abstract syntax tree (AAST) representations.
 
 InvAASTCluster was designed as an independent clustering tool. Therefore, it can be used to help evaluate students' submissions for IPAs by clustering semantically equivalent solutions for programming exercises,
 although InvAASTCluster can also be easily integrated into any clustering-based program repair tool for IPAs.
-However, some program repair tools use a single reference implementation provided by the lecturer to repair a student's program. These tools usually are only able to use one correct implementation to repair each program.
+However, some program repair tools use a single reference implementation provided by the lecturer to repair a student's program. As a result, these tools usually are only able to use one correct implementation to repair each program.
 Therefore, given an incorrect submission, InvAASTCluster was designed to be also capable of finding on a set of correct student submissions which submission is the closest correct solution to the incorrect program, i.e., a specific reference implementation for each incorrect submission, that may require fewer changes to fix the program.
 
 ## How to use InvAASTCluster
@@ -31,7 +31,7 @@ Therefore, given an incorrect submission, InvAASTCluster was designed to be also
 
 ## References
 
-Pedro Orvalho, Mikoláš Janota, and Vasco Manquinho. InvAASTCluster : On Applying Invariant-Based Program Clustering to Introductory Programming Assignments. 2022. [https://arxiv.org/pdf/.pdf](https://arxiv.org/pdf/.pdf)
+Pedro Orvalho, Mikoláš Janota, and Vasco Manquinho. InvAASTCluster: On Applying Invariant-Based Program Clustering to Introductory Programming Assignments. 2022. [https://arxiv.org/pdf/.pdf](https://arxiv.org/pdf/.pdf)
 
 ## Introductory Programming Assignments (IPAs) Datasets 
 
@@ -55,7 +55,7 @@ Pedro Orvalho, Mikoláš Janota, and Vasco Manquinho. InvAASTCluster : On Applyi
 
 + Clara
 
-   Clara is the program repair framework used. Clara should be installed as a submodule in the subdirectory "InvAASTCluster/clara". To install Clara follow the instructions available on https://github.com/iradicek/clara. The user should create a conda environment called "clara" to run clara with our scripts.
+   Clara is the program repair framework used. Clara should be installed as a submodule in the subdirectory "InvAASTCluster/clara". To install Clara, follow the instructions available on https://github.com/iradicek/clara. The user should create a conda environment called "clara" to run clara with our scripts.
 
 + Daikon
 
@@ -64,3 +64,5 @@ Pedro Orvalho, Mikoláš Janota, and Vasco Manquinho. InvAASTCluster : On Applyi
 + runsolver
 
   Runsolver was used to control the memory and CPU used and timeout while running the program clustering/repairing evaluations. To install Runsolver follow the instructions available on https://github.com/utpalbora/runsolver.
+
+
