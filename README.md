@@ -1,6 +1,6 @@
 # InvAASTCluster: On Applying Invariant-Based Program Clustering to Introductory Programming Assignments
 
-This is an implementation of the program clustering framework for introductory programming assignments (IPAs), described in the following paper: _"InvAASTCluster: On Applying Invariant-Based Program Clustering to Introductory Programming Assignments"_ ([https://arxiv.org/pdf/.pdf](https://arxiv.org/pdf/.pdf)).
+This is an implementation of the program clustering framework for introductory programming assignments (IPAs), described in the following paper: _"InvAASTCluster: On Applying Invariant-Based Program Clustering to Introductory Programming Assignments"_ ([https://arxiv.org/abs/2206.14175](https://arxiv.org/abs/2206.14175)).
 
 InvAASTCluster is a novel and efficient approach for clustering submissions for introductory programming assignments (IPAs) based on the submissions' sets of program invariants and anonymized abstract syntax tree (AAST) representations.
 
@@ -31,7 +31,7 @@ Therefore, given an incorrect submission, InvAASTCluster was designed to be also
 
 ## References
 
-Pedro Orvalho, Mikoláš Janota, and Vasco Manquinho. InvAASTCluster: On Applying Invariant-Based Program Clustering to Introductory Programming Assignments. 2022. [https://arxiv.org/pdf/.pdf](https://arxiv.org/pdf/.pdf)
+Pedro Orvalho, Mikoláš Janota, and Vasco Manquinho. InvAASTCluster: On Applying Invariant-Based Program Clustering to Introductory Programming Assignments. 2022. [https://arxiv.org/pdf/2206.14175.pdf](https://arxiv.org/pdf/2206.14175.pdf)
 
 ## Introductory Programming Assignments (IPAs) Datasets 
 
